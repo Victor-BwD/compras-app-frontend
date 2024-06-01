@@ -1,5 +1,3 @@
-import React from "react";
-
 export function Header() {
   return (
     <header className="flex items-center justify-between bg-gray-800 p-4">

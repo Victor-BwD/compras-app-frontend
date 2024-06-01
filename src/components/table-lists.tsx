@@ -22,7 +22,7 @@ export function Table() {
   const [shoppingList, setShoppingList] = useState<ShoppingListProps[]>([]);
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [totalPages, setTotalPages] = useState<number>(10);
-  const [totalCount, setTotalCount] = useState<number>(0);
+  const [, setTotalCount] = useState<number>(0);
   const [selectedListId, setSelectedListId] = useState<string | null>(null);
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
   const [isModalOpenProduct, setIsModalOpenProduct] = useState<boolean>(false);
