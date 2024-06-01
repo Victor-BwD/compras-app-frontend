@@ -5,5 +5,5 @@ export const api = axios.create({
   });
 
 export const apiProduction = axios.create({
-  baseURL: import.meta.env.PROD_API_URL,
+  baseURL: import.meta.env.VITE_PROD_API_URL,
 });
